@@ -2,20 +2,20 @@
 <!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
 <nav>
   <ul>
-    <li><a routerLink="/app-boundary" routerLinkActive="active">Boundary Component【边界受限】</a></li>
-    <li><a routerLink="/app-positionlocking" routerLinkActive="active">Positionlocking Component【方向受限】</a></li>
-    <li><a routerLink="/app-connectedsortinggroup" routerLinkActive="active">Connectedsortinggroup Component【分类连接group】</a></li>
-    <li><a routerLink="/app-connectedsorting" routerLinkActive="active">Connectedsorting Component【分类连接】</a></li>
-    <li><a routerLink="/app-evenpredicate" routerLinkActive="active">Evenpredicate Component【分类偶数校验】</a></li>
-    <li><a routerLink="/app-customplaceholder" routerLinkActive="active">Customplaceholder Component【自定义占位样式】</a></li>
-    <li><a routerLink="/app-custompreview" routerLinkActive="active">Custompreview Component【自定义预览】</a></li>
-    <li><a routerLink="/app-delayeddragging" routerLinkActive="active">Delayeddragging Component【延时拖拽】</a></li>
-    <li><a routerLink="/app-disabledsorting" routerLinkActive="active">Disabledsorting Component【左边禁用排序】</a></li>
-    <li><a routerLink="/app-disabled" routerLinkActive="active">Disabled Component【元素不可拖拽】</a></li>
-    <li><a routerLink="/app-withhandle" routerLinkActive="active">Withhandle Component【操作手柄】</a></li>
-    <li><a routerLink="/app-horizontalsorting" routerLinkActive="active">Horizontalsorting Component【横向list拖拽】</a></li>
-    <li><a routerLink="/app-alternateroot" routerLinkActive="active">Alternateroot Component</a></li>
-    <li><a routerLink="/app-sorting" routerLinkActive="active">Sorting Component【标准分类】</a></li>
+    <li [class.selected]="'1' === selectindex" (click)="selectindex = '1'"><a routerLink="/app-boundary" routerLinkActive="active">Boundary Component【边界受限】</a></li>
+    <li [class.selected]="'2' === selectindex" (click)="selectindex = '2'"><a routerLink="/app-positionlocking" routerLinkActive="active">Positionlocking Component【方向受限】</a></li>
+    <li [class.selected]="'3' === selectindex" (click)="selectindex = '3'"><a routerLink="/app-connectedsortinggroup" routerLinkActive="active">Connectedsortinggroup Component【分类连接group】</a></li>
+    <li [class.selected]="'4' === selectindex" (click)="selectindex = '4'"><a routerLink="/app-connectedsorting" routerLinkActive="active">Connectedsorting Component【分类连接】</a></li>
+    <li [class.selected]="'5' === selectindex" (click)="selectindex = '5'"><a routerLink="/app-evenpredicate" routerLinkActive="active">Evenpredicate Component【分类偶数校验】</a></li>
+    <li [class.selected]="'6' === selectindex" (click)="selectindex = '6'"><a routerLink="/app-customplaceholder" routerLinkActive="active">Customplaceholder Component【自定义占位样式】</a></li>
+    <li [class.selected]="'7' === selectindex" (click)="selectindex = '7'"><a routerLink="/app-custompreview" routerLinkActive="active">Custompreview Component【自定义预览】</a></li>
+    <li [class.selected]="'8' === selectindex" (click)="selectindex = '8'"><a routerLink="/app-delayeddragging" routerLinkActive="active">Delayeddragging Component【延时拖拽】</a></li>
+    <li [class.selected]="'9' === selectindex" (click)="selectindex = '9'"><a routerLink="/app-disabledsorting" routerLinkActive="active">Disabledsorting Component【左边禁用排序】</a></li>
+    <li [class.selected]="'10' === selectindex" (click)="selectindex = '10'"><a routerLink="/app-disabled" routerLinkActive="active">Disabled Component【元素不可拖拽】</a></li>
+    <li [class.selected]="'11' === selectindex" (click)="selectindex = '11'"><a routerLink="/app-withhandle" routerLinkActive="active">Withhandle Component【操作手柄】</a></li>
+    <li [class.selected]="'12' === selectindex" (click)="selectindex = '12'"><a routerLink="/app-horizontalsorting" routerLinkActive="active">Horizontalsorting Component【横向list拖拽】</a></li>
+    <li [class.selected]="'13' === selectindex" (click)="selectindex = '13'"><a routerLink="/app-alternateroot" routerLinkActive="active">Alternateroot Component</a></li>
+    <li [class.selected]="'14' === selectindex" (click)="selectindex = '14'"><a routerLink="/app-sorting" routerLinkActive="active">Sorting Component【标准分类】</a></li>
 
 
   </ul>
