@@ -21,6 +21,7 @@
     "@angular/platform-browser": "~10.0.4",
     "@angular/platform-browser-dynamic": "~10.0.4",
     "@angular/router": "~10.0.4",
+    "@antv/g2": "^4.0.14",
     "ng-drag-drop": "^5.0.0",
     "ng2-drag-drop": "^3.0.2",
     "rxjs": "^6.6.0",

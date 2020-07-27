@@ -19,6 +19,7 @@ import { HorizontalsortingComponent } from './dragdemo/horizontalsorting/horizon
 import { AlternaterootComponent } from './dragdemo/alternateroot/alternateroot.component';
 import { SortingComponent } from './dragdemo/sorting/sorting.component';
 import {OverlayModule} from '@angular/cdk/overlay';
+import { StackedbarChartComponent } from './antg2/stackedbar-chart/stackedbar-chart.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import {OverlayModule} from '@angular/cdk/overlay';
     WithhandleComponent,
     HorizontalsortingComponent,
     AlternaterootComponent,
-    SortingComponent
+    SortingComponent,
+    StackedbarChartComponent
   ],
   imports: [
     BrowserModule,

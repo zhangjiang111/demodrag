@@ -14,6 +14,7 @@ import {WithhandleComponent} from './dragdemo/withhandle/withhandle.component';
 import {HorizontalsortingComponent} from './dragdemo/horizontalsorting/horizontalsorting.component';
 import {AlternaterootComponent} from './dragdemo/alternateroot/alternateroot.component';
 import {SortingComponent} from './dragdemo/sorting/sorting.component';
+import {StackedbarChartComponent} from './antg2/stackedbar-chart/stackedbar-chart.component';
 
 const routes: Routes = [
   { path: 'app-boundary', component: BoundaryComponent },
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'app-horizontalsorting', component: HorizontalsortingComponent },
   { path: 'app-alternateroot', component: AlternaterootComponent },
   { path: 'app-sorting', component: SortingComponent },
+  { path: 'app-stackedbar-chart', component: StackedbarChartComponent },
 
 
 ];
